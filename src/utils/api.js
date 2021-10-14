@@ -63,3 +63,7 @@ export async function createObservation(observation, signal) {
   observations.push(newObservation);
   return newObservation;
 }
+
+export async function listObservations(signal) {
+  return observations;
+}
